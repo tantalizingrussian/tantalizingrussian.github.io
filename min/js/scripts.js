@@ -4,8 +4,9 @@
   if (
     new Date().getTime() < new Date("2021-05-17T15:00:00Z").getTime() ||
     new Date().getTime() > new Date("2021-05-19T15:00:00Z").getTime()
-  )
-    $(".presale-now").remove();
+  ) {
+    $("a.presale-now").html("$PEPE, Presale coming soon!");
+  }
 
   // Smooth scrolling using anime.js
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on("click", function () {
