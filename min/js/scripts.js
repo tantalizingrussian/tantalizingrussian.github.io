@@ -6,6 +6,9 @@
     new Date().getTime() > new Date("2021-05-19T15:00:00Z").getTime()
   ) {
     $("a.presale-now").html("$PEPE, Presale coming soon!");
+    console.log("wtf");
+    appendError(`Presale Address on Website Only! Stay in Tune!`, 1e4);
+    appendError(`Plz follow our official twitter account`, 1e4 + 1e3);
   }
 
   // Smooth scrolling using anime.js
