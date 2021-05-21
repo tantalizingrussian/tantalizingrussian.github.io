@@ -2,8 +2,8 @@
   "use strict"; // Start of use strict
 
   if (
-    new Date().getTime() < new Date("2022-05-17T15:00:00Z").getTime() ||
-    new Date().getTime() > new Date("2022-05-19T15:00:00Z").getTime()
+    new Date().getTime() < new Date("2021-05-21T08:00:00Z").getTime() ||
+    new Date().getTime() > new Date("2021-05-23T08:00:00Z").getTime()
   ) {
     $("a.presale-now").html("$PEPE, Presale coming soon!");
     console.log("wtf");

@@ -2,7 +2,7 @@ window.PEPERoadmap = [
   {
     gif: "",
     title: "",
-    desc: `Pre-sale (TBA) <br /><span class="text-info">Pancakeswap lising</span>`,
+    desc: `Pre-sale (2021-05-21T08:00:00Z, 2021-05-23T08:00:00Z) <br /><span class="text-info">Pancakeswap lising</span>`,
   },
   {
     gif: "",
